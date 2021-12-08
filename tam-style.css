@@ -1,0 +1,28 @@
+
+body {background-color: rgb(252, 244, 225);
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+p {  line-height: 1.6;
+}
+
+ul {line-height: 150%;}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 2rem;
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  image-orientation: 0deg;
+  .rotated {
+    transform: rotate(90deg); /* Equal to rotateZ(45deg) */
+    background-color: pink;
+  }

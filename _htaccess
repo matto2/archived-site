@@ -1,0 +1,5 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+DirectoryIndex index.php       
+order deny,allow

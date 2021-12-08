@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foundation | Welcome</title>
+<link rel="stylesheet" href="css/foundation.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+<div >
+<form id = "myForm" data-abide> 
+<div class = "contactForm">
+
+<div class="name-field">
+<label>Your name <small>required</small> 
+<input id = "name" type="text" required > 
+</label> 
+<small class="error">Name is required</small> 
+</div> 
+
+<div class="email-field"> 
+<label>Email <small>required</small> 
+<input id ="email" type="email" required> </label> 
+<small class="error">An email address is required.</small>
+
+ </div> 
+
+ <div class="text-field"> 
+<label>Your Message <small>required</small> 
+ </label> 
+ <textarea id = "message" required></textarea>
+<small class="error">Please enter message</small>
+
+ </div> 
+
+<button type="submit">Submit</button> 
+</div>
+</form>
+</div>
+
+    <script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.abide.js"></script>
+<script>
+  $(document).foundation();
+</script>
+
+<script>
+$('#myForm')
+.on('valid', function () {
+var name = $("input#name").val():
+var email = $("input#email").val():
+var message = $("textarea#message").val():
+
+//response 
+var dataString = 'name' + name + 
+                            '&email=' + email +
+                        '&message=' + message;
+
+// Ajax Call
+
+$.ajax({
+type:"POST",
+url:"php/mail.php",
+data:dataString,
+success:function(){
+$('.contactForm').html("<div id = "thanks"></div>");
+$('#thanks').html("<h2> Thanks</h2>");
+.append("<p>Dear" + name + "your message has been sent.</p>")
+.hide();
+.fadeIn(1400);
+},
+});
+return false;
+
+
+  });
+</script>
+</body>
+</html>
+
+           

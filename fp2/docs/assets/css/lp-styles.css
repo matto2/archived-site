@@ -1,0 +1,245 @@
+
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.clear {
+    clear: both;
+}
+#mainbox {
+    margin: 0 auto;
+    padding: 0 0 30px;
+    width: 930px;
+}
+#mainbox .col01 {
+    float: left;
+    margin-top: 12px;
+    width: 400px;
+}
+#mainbox .col02 {
+    float: right;
+    padding: 15px 0 30px;
+    width: 500px;
+}
+#mainbox .col02 .share {
+    font-size: 14px;
+    height: 22px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    text-align: right;
+}
+#mainbox .book-summary, #mainbox .secondary {
+    color: black;
+    font-size: 14px;
+    line-height: 22px;
+}
+#mainbox .book-summary form {
+    background: none repeat scroll 0 0 #FFFFCC;
+    border: 1px solid orange;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+    float: right;
+    margin: 0 0 20px 20px;
+    padding: 20px;
+    width: 250px;
+}
+#mainbox .book-summary form p {
+    margin: 0 0 10px;
+}
+dl.formats {
+    font-size: 12px;
+    line-height: 18px;
+}
+dl.formats dt {
+    background-color: transparent;
+    float: left;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+dl.formats dd {
+    background-color: transparent;
+    border-bottom: 2px dotted #CCCCCC;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+dd {
+    margin-left: 1.5em;
+}
+#mainbox .quote {
+    border-top: 2px dotted #CCCCCC;
+    font-family: Times New Roman,Georgia,Times,serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 15px 0;
+}
+#mainbox .quote-by {
+    display: block;
+    font-family: Times New Roman,Georgia,Times,serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 6px 0 0;
+    text-align: right;
+}
+#mainbox .author {
+    border-bottom: 2px dotted #CCCCCC;
+    font-size: 11px;
+    line-height: 18px;
+    padding: 15px 0;
+}
+#mainbox .author img {
+    float: left;
+    margin: 0 20px 16px 0;
+}
+#mainbox .author p {
+    margin: 0 0 10px;
+}
+#mainbox .social {
+    margin: 0 auto;
+    width: 350px;
+}
+#mainbox .col02 a {
+    color: #3087BB;
+}
+#mainbox .col02 a:hover {
+    text-decoration: none;
+}
+#mainbox .video {
+    border-bottom: 2px dotted #CCCCCC;
+    padding: 10px 0 15px;
+    text-align: center;
+}
+#mainbox .publisher {
+    background: none repeat scroll 0 0 #F2F0E7;
+    border: 1px solid #DFDCCC;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 20px;
+}
+.bookshelf {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #DFDCCC;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 10px;
+}
+.bookshelf .bookheader {
+    border-bottom: 2px dotted #DFDCCC;
+    margin: 0 10px 10px;
+}
+.bookshelf .bookheader h1 {
+    font-size: 18px;
+}
+.bookshelf .bookseries {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 12px;
+    text-align: left;
+}
+.bookshelf .booklink {
+    float: left;
+    margin: 0 0 20px;
+    padding: 9px;
+    width: 160px;
+}
+.bookshelf .booklink img {
+    width: 160px;
+}
+.bookshelf .booklink .bookpubdate {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+#footer {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#premiere {
+    background: none repeat scroll 0 0 white;
+    border-radius: 4px 4px 4px 4px;
+    border-top: 0 solid #CC0000;
+    color: black;
+    font-size: 12px;
+    line-height: 18px;
+    margin: auto;
+    padding: 4px;
+    width: 990px;
+}
+#premiere_logo {
+    background: none repeat scroll 0 0 white;
+    border: 0 none;
+    float: left;
+    width: 330px;
+}
+#premiere_logo img {
+    border: 0 none;
+}
+#premiere_logo a, #premiere_logo a:hover {
+    text-decoration: none;
+}
+#premiere_nav {
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0;
+    padding-top: 10px;
+    text-align: right;
+}
+#premiere_nav a {
+    background: none repeat scroll 0 0 #CC0000;
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 1px;
+    padding: 10px 30px 5px;
+}
+#premiere_nav a:hover {
+    background: none repeat scroll 0 0 white;
+    color: #CC0000;
+}
+#premiere_nav a.active {
+    background: none repeat scroll 0 0 transparent;
+    color: #CC0000;
+}
+#premiere_quotes {
+    background: url("/images/PREMIERE_QUOTE_BG.png") no-repeat scroll 0 15px transparent;
+    float: right;
+    height: 183px;
+    width: 655px;
+}
+#premiere_quotes .quote {
+    color: #565656;
+    font-family: Georgia,Times,serif;
+    font-size: 21px;
+    line-height: 24px;
+    margin: 50px 60px 0;
+}
+#premiere_quotes .quote_sig {
+    color: #565656;
+    font-family: Georgia,Times,serif;
+    font-size: 14px;
+    margin: 10px 0 0 90px;
+}
+.book_packages .floatLeft {
+    float: left;
+}
+.book_packages p {
+    font-size: 0.75em;
+    line-height: 1.5em;
+}

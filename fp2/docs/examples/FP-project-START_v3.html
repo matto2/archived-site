@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link href='http://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
+    
+    <meta charset="utf-8">
+    <title>FastPencil-Project-START</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../assets/css/bootstrap_FP-test.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 0px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <!-- <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">  
+	<script type="text/javascript">
+	    window.onload = function()
+	    {
+	        if(!window.jQuery)
+	        {
+	            alert('jQuery not loaded');
+	        }
+	        else
+	        {
+	            $(document).ready(function(){
+	                $('#example').popover({'placement':'bottom', 'trigger' : 'hover'});
+	                $('#example2').popover({'placement':'top', 'trigger' : 'hover'});
+	
+	            });
+	        }
+
+	    }
+	</script>
+
+
+
+</head>
+
+  <body>
+ <div class="navbar">
+	<div class="navbar-inner">
+		<div class="container-fluid">
+      <div class="">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+			<a class="brand" href="FP-home.html" name="top"><img src="../assets/img/new-fp-logo_SPOTS.png"></a>
+			<div class="nav-collapse collapse pull-right">
+				<ul class="nav">
+    <!--    <li><a href="#"><i class="icon-home"></i> </a></li>					
+        <li class="divider-vertical"></li> -->
+						<li class="active"><a href="FP-project-START_v3.html">Projects</a></li>
+					<li class="divider-vertical"></li>
+						<li><a href="FP-project-COMMUNITY.html">Community</a></li>
+
+					<li class="divider-vertical"></li>
+					<li><a href="FP-bookstore.html">Marketplace</a></li>
+					<li class="divider-vertical"></li>
+					<li><a href="FP-support.html">Support</a></li>
+					<li class="divider-vertical"></li>
+<li>
+<a href="/messages">
+<i class="icon-envelope" style="opacity:.3"></i>
+<span class="badge badge-important">1</span>
+</a>
+</li>										
+				</ul>
+				<div class="pull-right"  style="margin-top:10px">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#" style="text-decoration:none">
+						<img src="../assets/img/me_20x20.jpg"></i> demo	<span class="caret" style="margin-top:8px; opacity:.3;"></span>
+					</a>
+					<ul class="dropdown-menu">
+<li><a href="#"><i class="icon-wrench"></i> Settings</a></li>
+						<li class="divider"></li>
+						<li><a href="https://beta.fastpencil.com/admin/"><i class="icon-user"></i> Admin*</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="icon-share"></i> Logout</a></li>
+					</ul>
+				</div>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+  </div>
+		<!--/.container-fluid -->
+	</div>
+	<!--/.navbar-inner -->
+</div>
+<!--/.navbar -->
+
+
+
+    <div class="container">
+      
+      <div class="row">     
+
+
+
+<div>
+     <!-- <div class="row span12 alert alert-success " style="margin-top:-12px; font-size:88%; opacity: .8;">Courier Acquires FastPencil. Courier Corporation (Nasdaq: CRRC), one of America’s leading innovators in book manufacturing and content management... <a href="">Read more</a> <a class="close" style="margin-top:-4px;" data-dismiss="alert" href="#">&times;</a>
+</div>-->
+      <div class="row span12">
+        
+        
+        
+        <div class="btn-group pull-right" style="margin-top:28px; margin-right: -33px;">
+
+
+ <a class="project btn btn-primary" href="#myModal" role="button" class="btn" data-toggle="modal"><i class="icon-plus icon-white"></i> New Project*</a>
+
+
+				</div>
+           <h4 style="margin: 22px 0 22px 8px; color: #000000;"><a href="" id="example" style="text-decoration:none; color:#000;" data-toggle="popover" rel="popover" data-placement="bottom" title="" data-content="" data-original-title="" >My Projects </a></h4>     
+      
+      
+ <p style="margin-left:10px; color: #909090; font-size:13.3px; line-height:1.4em;">Start a new project or select from existing projects. </p>     
+      
+      
+    <!--</br>A project is where you write your book, add images, make notes and discuss with collaborators.-->  
+      
+      </row>
+ <div class="row">     
+<div class= "well span12">
+          <div class="bs-docs-example">
+            <!-- <ul id="myTab" class="nav nav-tabs">
+              <li class="active"><a href="#projects" data-toggle="tab">Projects</a></li>
+              <li><a href="#people" data-toggle="tab">People</a></li>
+              <li><a href="#bookstore" data-toggle="tab">Bookstore</a></li>
+              
+            
+                </ul>
+              </li>
+            </ul>
+            <h2 style="margin-bottom:26px">Projects</h2>
+            
+            <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade in active" id="projects"> -->
+              
+               
+
+<div class="btn-group pull-right" style="margin-top:0">
+
+
+          
+          <a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#">
+            <i class="icon"></i> Filter Projects  <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><i class="icon"></i> View all</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="icon"></i> My projects</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="icon"></i> Collaborations</a></li>
+                        <li class="divider"></li>
+            <li><a href="#"><i class="icon"></i> Published</a></li>
+                        <li class="divider"></li>
+            <li><a href="#"><i class="icon"></i> Archived</a></li>
+          </ul>
+         <!-- <button class="btn btn-small">Create Publication</button>-->
+        </div>
+
+
+
+
+
+
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">New Project</h3>
+  </div>
+  <div class="modal-body">
+<form>
+  <fieldset>
+    <input type="text" placeholder="Project Title">
+        <p>
+          <textarea class="span4" rows="6" placeholder="Description"></textarea></p>
+
+  </fieldset>
+
+<p><span style="vertical-align:20%">Imprint:&nbsp;</span>
+			
+	     
+	     <select class="span2">
+<option>FastPencil</option>
+<option>Wavecrest</option>
+<option>Premiere</option>
+</select></p>
+			
+
+</form> 
+
+
+
+ </div>
+ 
+				
+
+ 
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <a href="FP-project-MAIN_v4.html"><button class="btn btn-primary">Save changes</button></a>
+  </div>
+</div>
+
+
+
+<!--
+<div class="btn-group pull-right">
+					<a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="icon"></i> View options	<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><i class="icon"></i> View all</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="icon"></i> My projects</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="icon"></i> Collaborations</a></li>
+												<li class="divider"></li>
+						<li><a href="#"><i class="icon"></i> Published</a></li>
+												<li class="divider"></li>
+						<li><a href="#"><i class="icon"></i> Archived</a></li>
+					</ul>
+				</div>
+			-->
+                                
+<div class="row">
+  <div class="span12">
+     
+
+</div>
+</div>
+
+
+<div class="span12">
+<div class="row">
+<ul class="thumbnails">
+  <li class="span2">
+    <a href="FP-project-MAIN_v4.html"><div class="thumbnail">
+             
+             <div class="project-box">
+                                    <a href="FP-project-MAIN_v4.html"><img src="../assets/img/italy-BookCover_cropped.png" alt=""></a>
+
+        <p style= "margin-top:12px;">
+<a href="FP-project-MAIN_v4.html"><strong>My Trip to Italy*</strong></p></a>
+        <p><small>Status: In progress</small></p>
+        
+        <!-- or maybe <a href="#"><i class="icon-pencil"></i></a> somewhere  ??
+        
+        Really want the whole thumbnail clickable but styling getting messed up
+        
+        -->
+        </div>
+    </div>
+  </li>
+  <li class="span2">
+    <div class="thumbnail">
+             <div class="project-box">
+               <a href="FP-project-MAIN_v4.html"><img src="../assets/img/till100.png" alt=""></a>
+        <p style= "margin-top:12px;">
+          <a href="#"><strong>Till the End of Time</strong></p></a>
+        <p><small>Status: In progress</small></p>
+        </div>
+    </div>
+  </li>
+  <li class="span2">
+    <div class="thumbnail">
+             <div class="project-box">
+               <a href="FP-project-MAIN_v4.html"><img src="../assets/img/together_100.png" alt=""></a>
+        <p style= "margin-top:12px;">
+          <a href="#"><strong>Together They Hold up the Sky</strong></a></p>
+        <p><small>Status: In progress</small></p>
+        </div>
+    </div>
+  </li>
+  <li class="span2">
+    <div class="thumbnail">
+             <div class="project-box">
+               <a href="FP-project-MAIN_v4.html"><img src="../assets/img/book-icon_50p.png" alt="" style="opacity:.3";></a>
+        <p style= "margin-top:12px;">
+          <a href="#"><strong>Going to College</strong></a></p>
+        <p><small>Status: In progress</small></p>
+        </div>
+    </div>
+  </li>  
+
+  <li class="span2">
+    <div class="thumbnail">
+             <div class="project-box">
+               <a href="FP-project-MAIN_v4.html"><img src="../assets/img/book-icon_50p.png" alt="" style="opacity:.3";></a>
+        <p style= "margin-top:12px;">
+          <a href="#"><strong>Business Objectives</strong></a></p>
+        <p><small>Status: In progress</small></p>
+        </div>
+    </div>
+  </li>
+
+  
+</ul>
+</div>
+
+              </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+    </div> <!-- /container -->
+
+</div>
+</div>
+
+<div class= "well span12">
+  
+  <a href="FP-project-PUBLISH.html" class="btn pull-right"><i class='icon-plus'></i> New Publication
+</a>
+<!--<h4 style="margin: 12px 0 22px 8px; color: #000;"><a href="" id="example2" style="text-decoration:none" data-toggle="popover" rel="popover" data-placement="top" data-content="A Publication is a snapshot of your Project that you create once you are ready to format, distribute and/or print your book. The Publication workspace is where your book formats and covers are set-up along with publication-specific details (metadata)." title="" data-original-title="Tooltip on top">My Publications </a></h4>
+-->
+<h4 style="margin: 12px 0 22px 8px; color: #000;"><href="" id="example2" style="text-decoration:none" data-toggle="popover" rel="popover" data-placement="top" data-content="A Publication is a snapshot of your Project that you create once you are ready to format, distribute and/or print your book. The Publication workspace is where your book formats and covers are set-up along with publication-specific details (metadata)." title="" data-original-title="Tooltip on top">My Publications </h4>
+
+<div class='well' style="padding:6px">
+Create a new <a href="" style="text-decoration:none" rel="tooltip" data-toggle="tooltip" data-placement="top" title="" data-content="A publication is a snapshot of a completed project or an uploaded file that is ready to be printed and/or pushed into distribution." data-original-title="A publication is a snapshot of a completed project or an uploaded file that is ready to be printed and/or pushed into distribution.">publication</a> to publish an existing Project, a print-ready PDF, or a distribution-ready ePub. See our direct-to-publish <a href="#">format requirements.</a>
+</div>
+<table class='table'>
+<thead>
+<tr>
+<th>Title</th>
+<th>Project</th>
+<th>Status</th>
+<th>Updated</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#">Alice in Wonderland</a></td>
+<td>
+<a href="#">Alice in Wonderland</a>
+</td>
+<td><span class="label">In Progress</span></td>
+<td>03/12/13  9:26:04pm (7 days ago)</td>
+</tr>
+<tr>
+<td><a href="#">Gunsmoke</a></td>
+<td>
+<a href="#">Gunsmoke</a>
+</td>
+<td><span class="label">In Progress</span></td>
+<td>03/18/13  8:09:33pm (1 day ago)</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+
+  
+  </div>
+
+
+<!--
+<div class="row">
+ <div class='span3'>
+              <div class='page-header'>
+                <h4>My News Feed</h4>
+              </div>
+              <div class='action'>
+                <a href="/other_users/testuser"><img alt="Missing_small" src="../assets/img/testuser.png" /></a>
+                <div class='action-description'>
+                  <span class='action-user'>
+                    <a href="/other_users/testuser">Test Person</a>
+                  </span>
+                  created a new block in <a href="/projects/1">&quot;waves&quot;</a>
+                  <div class='action-byline'>
+                    5 days ago
+                  </div>
+                </div>
+              </div>
+              <div class='action'>
+                <a href="/other_users/testuser"><img alt="Missing_small" src="../assets/img/testuser.png" /></a>
+                <div class='action-description'>
+                  <span class='action-user'>
+                    <a href="/other_users/testuser">Test Person</a>
+                  </span>
+                  created a new project <a href="/projects/1">&quot;waves&quot;</a>
+                  <div class='action-byline'>
+                    5 days ago
+                  </div>
+                </div>
+              </div>
+              <a href="/actions">Full Feed</a>--> 
+            </div>
+
+</row>
+    
+          <hr>
+
+      <footer>
+        <p style="color:gray">&copy; FastPencil  </p>
+      </footer> 
+  
+  
+  
+  
+  
+       
+    
+
+<!--
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script>
+	$(function ()
+	{ $("#example").popover();
+	});	
+	</script>   
+
+<script>
+$(".alert").alert();
+</script>
+
+
+ <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+    <script src="../assets/js/holder.js"></script>
+
+  </body>
+</html>
